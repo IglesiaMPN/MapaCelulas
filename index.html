@@ -14,13 +14,33 @@
  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
      crossorigin=""></script>
+     
+
+     <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+<script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
 </head>
 
 <body>
     <section class="mapa-container">
-        <div class="buscador-container">
-            <p>aca va el buscador</p>
-        </div>
+        
+<div class="filtros-container">
+  <label for="tipoSelect">Tipo:</label>
+  <select id="tipoSelect">
+    <option value="todos">Todos</option>
+    <option value="casa_oracion">Casas de Oración</option>
+    <option value="casa_discipulado">Casas de Discipulado</option>
+  </select>
+
+  <label for="redSelect">Red:</label>
+  <select id="redSelect">
+    <option value="todas">Todas</option>
+    <option value="mujeres">Mujeres</option>
+    <option value="varones">Varones</option>
+    <option value="jovenes">Jóvenes</option>
+  </select>
+</div>
+
+        
         <div id="map" class="mapa"></div>
     </section>
 
