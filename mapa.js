@@ -127,7 +127,7 @@ const resetControl = L.Control.extend({
 });
 map.addControl(new resetControl({ position: "topleft" }));
 
-// Mostrar coords en consola
+// Mostrar coords en consola.
 map.on("click", function (e) {
   console.log("Click en:", e.latlng.lat, ", ", e.latlng.lng);
 });
