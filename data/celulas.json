@@ -7,8 +7,9 @@
     "lng": "-60.55386498648664",
     "preciso": true,
     "direccion": "Casiano Calderón y German Burmeister",
-    "anfitrion": "-",
-    "telefono": "-",
+    "anfitrion": "",
+    "telefono": "",
+    "horario": "",
     "obs": "Barrio San Agustin"
   },
   {
@@ -21,6 +22,7 @@
     "direccion": "Juan Baez 1970",
     "anfitrion": "Anexo Las Piedras",
     "telefono": "",
+    "horario": "",
     "obs": ""
   },
   {
@@ -32,8 +34,9 @@
     "preciso": false,
     "direccion": "Zona Av. Ejercito",
     "anfitrion": "Verónica Urzagasti",
-    "telefono": "-",
-    "obs": "-"
+    "telefono": "",
+    "horario": "",
+    "obs": ""
   },
   {
     "red": "mujeres",
@@ -44,20 +47,22 @@
     "preciso": true,
     "direccion": "Francia 2855",
     "anfitrion": "Anexo Comunidad Gitana",
-    "telefono": "-",
-    "obs": "-"
+    "telefono": "",
+    "horario": "",
+    "obs": ""
   },
   {
     "red": "mujeres",
     "tipo": "casa_discipulado",
     "lider": "Evelyn Soplan",
-    "lat": "-31.723303158723347",
-    "lng": "-60.55143739685926",
-    "preciso": false,
-    "direccion": "Barrio Mosconi",
-    "anfitrion": "-",
-    "telefono": "-",
-    "obs": "-"
+    "lat": "-31.72213275219521",
+    "lng": "-60.55308111629556",
+    "preciso": true,
+    "direccion": "Lorenzo Anselmi Mzn 11 Casa 7",
+    "anfitrion": "",
+    "telefono": "",
+    "horario": "",
+    "obs": "Barrio Mosconi"
   },
   {
     "red": "mujeres",
@@ -68,8 +73,9 @@
     "preciso": false,
     "direccion": "Zona Parque Gazzano",
     "anfitrion": "Kela (Madre de Quiroga Luciano)",
-    "telefono": "-",
-    "obs": "-"
+    "telefono": "",
+    "horario": "",
+    "obs": ""
   },
   {
     "red": "mujeres",
@@ -79,9 +85,10 @@
     "lng": "-60.468305076357574",
     "preciso": false,
     "direccion": "Barrio Las Rosas",
-    "anfitrion": "-",
-    "telefono": "-",
-    "obs": "-"
+    "anfitrion": "",
+    "telefono": "",
+    "horario": "",
+    "obs": ""
   },
   {
     "red": "mujeres",
@@ -91,9 +98,10 @@
     "lng": "-60.50674068255063",
     "preciso": false,
     "direccion": "Barrio Parana V",
-    "anfitrion": "-",
-    "telefono": "-",
-    "obs": "-"
+    "anfitrion": "",
+    "telefono": "",
+    "horario": "",
+    "obs": ""
   },
   {
     "red": "mujeres",
@@ -104,7 +112,8 @@
     "preciso": true,
     "direccion": "Marcelino Román 1750",
     "anfitrion": "Anexo Colonia Avellaneda",
-    "telefono": "-",
+    "telefono": "",
+    "horario": "",
     "obs": "Colonia Avellaneda"
   },
   {
@@ -115,9 +124,10 @@
     "lng": "-60.50733698087103",
     "preciso": false,
     "direccion": "Zona Escuela Hogar",
-    "anfitrion": "-",
-    "telefono": "-",
-    "obs": "-"
+    "anfitrion": "",
+    "telefono": "",
+    "horario": "",
+    "obs": ""
   },
   {
     "red": "mujeres",
@@ -127,8 +137,9 @@
     "lng": "-60.501918",
     "preciso": false,
     "direccion": "José Mármol e Independencia",
-    "anfitrion": "-",
-    "telefono": "-",
+    "anfitrion": "",
+    "telefono": "",
+    "horario": "",
     "obs": "Zona Escuela Hogar"
   },
   {
@@ -140,8 +151,9 @@
     "preciso": true,
     "direccion": "José Rondeau 1107",
     "anfitrion": "Iglesia",
-    "telefono": "-",
-    "obs": "-"
+    "telefono": "",
+    "horario": "",
+    "obs": ""
   },
   {
     "red": "mujeres",
@@ -152,7 +164,8 @@
     "preciso": false,
     "direccion": "Almirante Brown",
     "anfitrion": "Flia. Hertel",
-    "telefono": "-",
+    "telefono": "",
+    "horario": "",
     "obs": "Casi Rondeau"
   },
   {
@@ -163,8 +176,9 @@
     "lng": "-60.49287914134701",
     "preciso": false,
     "direccion": "Paraná 14",
-    "anfitrion": "-",
-    "telefono": "-",
+    "anfitrion": "",
+    "telefono": "",
+    "horario": "",
     "obs": "Zona Sur"
   },
   {
@@ -175,8 +189,9 @@
     "lng": "-60.489770765770764",
     "preciso": false,
     "direccion": "Zona Sureste Barrio Almirante Brown",
-    "anfitrion": "-",
-    "telefono": "-",
+    "anfitrion": "",
+    "telefono": "",
+    "horario": "",
     "obs": "Ex Barrio Vairetti"
   },
   {
@@ -187,8 +202,9 @@
     "lng": "-60.506480",
     "preciso": false,
     "direccion": "Batalla de Suipacha 2235",
-    "anfitrion": "-",
-    "telefono": "-",
+    "anfitrion": "",
+    "telefono": "",
+    "horario": "",
     "obs": "Barrio Yatay"
   },
   {
@@ -199,8 +215,9 @@
     "lng": "-60.50269869720844",
     "preciso": false,
     "direccion": "Los Constituyentes",
-    "anfitrion": "-",
-    "telefono": "-",
+    "anfitrion": "",
+    "telefono": "",
+    "horario": "",
     "obs": "Zona Escuela Hogar"
   },
   {
@@ -212,8 +229,9 @@
     "preciso": false,
     "direccion": "Barrio San Roque",
     "anfitrion": "Lita Barreto",
-    "telefono": "-",
-    "obs": "-"
+    "telefono": "",
+    "horario": "",
+    "obs": ""
   },
   {
     "red": "mujeres",
@@ -223,9 +241,10 @@
     "lng": "-60.50016480950234",
     "preciso": false,
     "direccion": "Zona Iglesia",
-    "anfitrion": "-",
-    "telefono": "-",
-    "obs": "-"
+    "anfitrion": "",
+    "telefono": "",
+    "horario": "",
+    "obs": ""
   },
   {
     "red": "mujeres",
@@ -236,8 +255,9 @@
     "preciso": true,
     "direccion": "José Rondeau 1107",
     "anfitrion": "Iglesia",
-    "telefono": "-",
-    "obs": "-"
+    "telefono": "",
+    "horario": "",
+    "obs": ""
   },
   {
     "red": "mujeres",
@@ -248,8 +268,9 @@
     "preciso": true,
     "direccion": "Francia 2855",
     "anfitrion": "Anexo Comunidad Gitana",
-    "telefono": "-",
-    "obs": "-"
+    "telefono": "",
+    "horario": "",
+    "obs": ""
   },
   {
     "red": "mujeres",
@@ -260,7 +281,8 @@
     "preciso": true,
     "direccion": "Barrio Empleados de Comercio",
     "anfitrion": "Flia. Popp",
-    "telefono": "-",
+    "telefono": "",
+    "horario": "",
     "obs": "Zanni al final"
   },
   {
@@ -272,7 +294,8 @@
     "preciso": true,
     "direccion": "José Rondeau 1107",
     "anfitrion": "Iglesia",
-    "telefono": "-",
+    "telefono": "",
+    "horario": "",
     "obs": "Maestras del SCE - sabados de tarde"
   },
   {
@@ -284,7 +307,8 @@
     "preciso": false,
     "direccion": "Zona Calle Caputto",
     "anfitrion": "Patricia Troncoso",
-    "telefono": "-",
+    "telefono": "",
+    "horario": "",
     "obs": "Barrio Mosconi II"
   },
 
@@ -296,13 +320,14 @@
     "red": "mujeres",
     "tipo": "casa_oracion",
     "lider": "Agustina Martínez",
-    "lat": "-31.718200",
-    "lng": "-60.557945",
-    "preciso": false,
+    "lat": "-31.717905020327787",
+    "lng": "-60.557665521366864",
+    "preciso": true,
     "direccion": "Barrio Brisas del Oeste",
-    "anfitrion": "-",
-    "telefono": "-",
-    "obs": "-"
+    "anfitrion": "",
+    "telefono": "",
+    "horario": "",
+    "obs": "Entre Calle 1599 y Calle 1601"
   },
   {
     "red": "mujeres",
@@ -312,9 +337,10 @@
     "lng": "-60.56578261645762",
     "preciso": false,
     "direccion": "Zona Bajada Grande",
-    "anfitrion": "-",
-    "telefono": "-",
-    "obs": "-"
+    "anfitrion": "",
+    "telefono": "",
+    "horario": "",
+    "obs": ""
   },
   {
     "red": "mujeres",
@@ -324,8 +350,9 @@
     "lng": "-60.553116",
     "preciso": true,
     "direccion": "Los Jacarandaes 1622",
-    "anfitrion": "-",
+    "anfitrion": "",
     "telefono": "343-518-0696",
+    "horario": "",
     "obs": "Barrio Anacleto Medina"
   },
   {
@@ -336,8 +363,9 @@
     "lng": "-60.54244707106293",
     "preciso": false,
     "direccion": "Barrio El Perejil",
-    "anfitrion": "-",
-    "telefono": "-",
+    "anfitrion": "",
+    "telefono": "",
+    "horario": "",
     "obs": "Zona aledaña a Barrio Las Piedras"
   },
   {
@@ -348,8 +376,9 @@
     "lng": "-60.488451",
     "preciso": false,
     "direccion": "Andres Longo",
-    "anfitrion": "-",
-    "telefono": "-",
+    "anfitrion": "",
+    "telefono": "",
+    "horario": "",
     "obs": "Barrio Lomas 1"
   },
   {
@@ -360,9 +389,10 @@
     "lng": "-60.47879195432339",
     "preciso": false,
     "direccion": "Barrio 20 de Junio",
-    "anfitrion": "-",
-    "telefono": "-",
-    "obs": "-"
+    "anfitrion": "",
+    "telefono": "",
+    "horario": "",
+    "obs": ""
   },
   {
     "red": "mujeres",
@@ -372,9 +402,10 @@
     "lng": "-60.47819945091025",
     "preciso": true,
     "direccion": "Soldado Bordón y C. Aeronáutico Luis Sevilla",
-    "anfitrion": "-",
-    "telefono": "-",
-    "obs": "-"
+    "anfitrion": "",
+    "telefono": "",
+    "horario": "",
+    "obs": ""
   },
   {
     "red": "mujeres",
@@ -384,8 +415,9 @@
     "lng": "-60.478068187324396",
     "preciso": false,
     "direccion": "Miguel david",
-    "anfitrion": "-",
-    "telefono": "-",
+    "anfitrion": "",
+    "telefono": "",
+    "horario": "",
     "obs": "Barrio 8 de Septiembre"
   },
   {
@@ -396,9 +428,10 @@
     "lng": "-60.44149702615315",
     "preciso": false,
     "direccion": "Zona Sureste de San Benito",
-    "anfitrion": "-",
-    "telefono": "-",
-    "obs": "-"
+    "anfitrion": "",
+    "telefono": "",
+    "horario": "",
+    "obs": ""
   },
 
 
@@ -417,7 +450,8 @@
     "preciso": true,
     "direccion": "Marcelino Román 1750",
     "anfitrion": "Anexo Colonia Avellaneda",
-    "telefono": "-",
+    "telefono": "",
+    "horario": "",
     "obs": "Colonia Avellaneda"
   },
   {
@@ -429,8 +463,9 @@
     "preciso": false,
     "direccion": "Barrio Paraná V - Tira 28 - Casa 213 p.a",
     "anfitrion": "Berón",
-    "telefono": "-",
-    "obs": "-"
+    "telefono": "",
+    "horario": "",
+    "obs": ""
   },
   {
     "red": "varones",
@@ -440,9 +475,10 @@
     "lng": "-60.482654051779015",
     "preciso": false,
     "direccion": "Zona Sur",
-    "anfitrion": "-",
-    "telefono": "-",
-    "obs": "-"
+    "anfitrion": "",
+    "telefono": "",
+    "horario": "",
+    "obs": ""
   },
   {
     "red": "varones",
@@ -452,8 +488,9 @@
     "lng": "-60.505016153052615",
     "preciso": true,
     "direccion": "Barrio 199 Viviendas - Manza 5 Casa 19",
-    "anfitrion": "-",
-    "telefono": "-",
+    "anfitrion": "",
+    "telefono": "",
+    "horario": "",
     "obs": "Zanni al final"
   },
   {
@@ -465,8 +502,9 @@
     "preciso": true,
     "direccion": "Francia 2855",
     "anfitrion": "Anexo Comunidad Gitana",
-    "telefono": "-",
-    "obs": "-"
+    "telefono": "",
+    "horario": "",
+    "obs": ""
   },
   {
     "red": "varones",
@@ -477,8 +515,9 @@
     "preciso": true,
     "direccion": "Juan Baez 1970",
     "anfitrion": "Anexo Las Piedras",
-    "telefono": "-",
-    "obs": "-"
+    "telefono": "",
+    "horario": "",
+    "obs": ""
   },
   {
     "red": "varones",
@@ -488,8 +527,9 @@
     "lng": "-60.50713988253541",
     "preciso": true,
     "direccion": "Hernández Saba 2289",
-    "anfitrion": "-",
-    "telefono": "-",
+    "anfitrion": "",
+    "telefono": "",
+    "horario": "",
     "obs": "Barrio Cantera Yatay"
   },
   {
@@ -501,7 +541,8 @@
     "preciso": false,
     "direccion": "Las piedras Casa 37",
     "anfitrion": "Gonzalez, Gainza",
-    "telefono": "-",
+    "telefono": "",
+    "horario": "",
     "obs": "Barrio Municipal"
   },
   {
@@ -513,8 +554,9 @@
     "preciso": false,
     "direccion": "Barrio Villa Hermosa",
     "anfitrion": "Gabriel Lezcano",
-    "telefono": "-",
-    "obs": "-"
+    "telefono": "",
+    "horario": "",
+    "obs": ""
   },
   {
     "red": "varones",
@@ -524,9 +566,10 @@
     "lng": "-60.4830863770694",
     "preciso": false,
     "direccion": "Zona Caputto y Miguel David",
-    "anfitrion": "-",
-    "telefono": "-",
-    "obs": "-"
+    "anfitrion": "",
+    "telefono": "",
+    "horario": "",
+    "obs": ""
   }
 ,
 
@@ -540,8 +583,9 @@
     "lng": "-60.502649",
     "preciso": true,
     "direccion": "Campamento del Cala 536",
-    "anfitrion": "-",
-    "telefono": "-",
+    "anfitrion": "",
+    "telefono": "",
+    "horario": "",
     "obs": "Zona Almafuerte"
   },
   {
@@ -552,9 +596,10 @@
     "lng": "-60.476203",
     "preciso": false,
     "direccion": "Barrio 8 de Septiembre",
-    "anfitrion": "-",
-    "telefono": "-",
-    "obs": "-"
+    "anfitrion": "",
+    "telefono": "",
+    "horario": "",
+    "obs": ""
   },
   {
     "red": "jovenes",
@@ -565,8 +610,9 @@
     "preciso": false,
     "direccion": "Barro Municipal",
     "anfitrion": "Flia. Gonzalez, Gainza",
-    "telefono": "-",
-    "obs": "-"
+    "telefono": "",
+    "horario": "",
+    "obs": ""
   },
   {
     "red": "jovenes",
@@ -577,8 +623,9 @@
     "preciso": true,
     "direccion": "José Rondeau 1107",
     "anfitrion": "Iglesia",
-    "telefono": "-",
-    "obs": "-"
+    "telefono": "",
+    "horario": "",
+    "obs": ""
   },
   {
     "red": "jovenes",
@@ -588,9 +635,10 @@
     "lng": "-60.512904561567176",
     "preciso": false,
     "direccion": "Barrio Rocamora",
-    "anfitrion": "-",
-    "telefono": "-",
-    "obs": "-"
+    "anfitrion": "",
+    "telefono": "",
+    "horario": "",
+    "obs": ""
   },
   {
     "red": "jovenes",
@@ -601,8 +649,9 @@
     "preciso": false,
     "direccion": "Benjamin Gorgostiaga y Brown",
     "anfitrion": "Flia. Hertel",
-    "telefono": "-",
-    "obs": "-"
+    "telefono": "",
+    "horario": "",
+    "obs": ""
   },
   {
     "red": "jovenes",
@@ -613,7 +662,8 @@
     "preciso": true,
     "direccion": "Jose Maria Paz 3890 - Zona Las Piedras",
     "anfitrion": "Flia. Bevilacqua, Gonzalez",
-    "telefono": "-",
+    "telefono": "",
+    "horario": "",
     "obs": "entre Juan Báez y Crisólogo Larralde"
   },
   {
@@ -625,7 +675,8 @@
     "preciso": false,
     "direccion": "Zona Almafuerte",
     "anfitrion": "Jeremías Caraballo",
-    "telefono": "-",
-    "obs": "-"
+    "telefono": "",
+    "horario": "",
+    "obs": ""
   }
 ]
