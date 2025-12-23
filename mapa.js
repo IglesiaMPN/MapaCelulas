@@ -6,7 +6,7 @@ const map = L.map("map", { attributionControl: false }).setView(
 
 const tiles = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
   maxZoom: 19,
-  attribution: "Ultima Actualizacion de celulas: 23/12/2025",
+  attribution: "<h4><b>Ultima Actualizacion de celulas: 23/12/2025</b></h4>",
 }).addTo(map);
 
 L.control.attribution({ prefix: false }).addTo(map);
@@ -78,7 +78,7 @@ function renderMarkers() {
           <b>Líder:</b> ${u.lider}<br>
           <b>Tel:</b> ${u.telefono}<br>
           <b>Horario:</b> ${u.horario}<br>
-          <b>Observaciones:</b> ${u.obs}<br>
+          <b>Observaciones:</b> ${u.obs}<br><br>
           ${u.preciso ? '<span style="color:green;">✔️</span>' : '<span style="color:red;">❌</span>'}
         </div>
       </div>
