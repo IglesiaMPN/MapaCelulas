@@ -76,7 +76,7 @@ function renderMarkers() {
           <b class="nombre">${nombre}</b><br>
           <b>Dirección:</b> ${u.direccion}<br>
           <b>Líder:</b> ${u.lider}<br>
-          <b>Tel:</b> ${u.telefono}<br>
+          <b>Tel:</b> ${formatPhone(u.telefono)}<br>
           <b>Horario:</b> ${u.horario}<br>
           <b>Observaciones:</b> ${u.obs}<br><br>
           ${u.preciso ? '<span style="color:green;">✔️</span>' : '<span style="color:red;">❌</span>'}
@@ -133,3 +133,18 @@ map.addControl(new resetControl({ position: "topleft" }));
 map.on("click", function (e) {
   console.log("Click en:", e.latlng.lat, ", ", e.latlng.lng);
 });
+
+// Función para formatear número de teléfono
+function formatPhone(phone) {
+  if (!phone || phone.trim() === '') {
+    return '';
+  }
+  // Remover caracteres no numéricos
+  const digits = phone.replace(/\D/g, '');
+  // Si no tiene exactamente 10 dígitos, retornar el original
+  if (digits.length !== 10) {
+    return phone;
+  }
+  // Formatear como "343 447-1447"
+  return `${digits.slice(0, 3)} ${digits.slice(3, 6)}-${digits.slice(6)}`;
+}

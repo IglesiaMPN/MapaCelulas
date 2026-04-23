@@ -45,7 +45,7 @@
     "lat": "-31.753500466671028",
     "lng": "-60.48095931492141",
     "preciso": true,
-    "direccion": "Francia 2855",
+    "direccion": "Francia 1829",
     "anfitrion": "Anexo Comunidad Gitana",
     "telefono": "",
     "horario": "",
@@ -266,7 +266,7 @@
     "lat": "-31.753457",
     "lng": "-60.481204",
     "preciso": true,
-    "direccion": "Francia 2855",
+    "direccion": "Francia 1829",
     "anfitrion": "Anexo Comunidad Gitana",
     "telefono": "",
     "horario": "",
@@ -311,6 +311,9 @@
     "horario": "",
     "obs": "Barrio Mosconi II"
   },
+
+
+
 
 
 
@@ -450,7 +453,7 @@
     "preciso": true,
     "direccion": "Marcelino Román 1750",
     "anfitrion": "Anexo Colonia Avellaneda",
-    "telefono": "",
+    "telefono": "3436209023",
     "horario": "",
     "obs": "Colonia Avellaneda"
   },
@@ -462,8 +465,8 @@
     "lng": "-60.50733110912844",
     "preciso": false,
     "direccion": "Barrio Paraná V - Tira 28 - Casa 213 p.a",
-    "anfitrion": "Berón",
-    "telefono": "",
+    "anfitrion": "",
+    "telefono": "3435084038",
     "horario": "",
     "obs": ""
   },
@@ -471,12 +474,12 @@
     "red": "varones",
     "tipo": "casa_discipulado",
     "lider": "Andrés Oroño",
-    "lat": "-31.781207263093876",
+    "lat": "-31.754239422240683",
     "lng": "-60.482654051779015",
-    "preciso": false,
-    "direccion": "Zona Sur",
+    "preciso": true,
+    "direccion": "Coronel Manuel Hornos 77",
     "anfitrion": "",
-    "telefono": "",
+    "telefono": "3436236398",
     "horario": "",
     "obs": ""
   },
@@ -487,9 +490,9 @@
     "lat": "-31.790256351875847",
     "lng": "-60.505016153052615",
     "preciso": true,
-    "direccion": "Barrio 199 Viviendas - Manza 5 Casa 19",
+    "direccion": "Barrio 199 Viviendas - Manzana 5 Casa 19",
     "anfitrion": "",
-    "telefono": "",
+    "telefono": "3435141549",
     "horario": "",
     "obs": "Zanni al final"
   },
@@ -500,9 +503,9 @@
     "lat": "-31.753457",
     "lng": "-60.481204",
     "preciso": true,
-    "direccion": "Francia 2855",
+    "direccion": "Francia 2829",
     "anfitrion": "Anexo Comunidad Gitana",
-    "telefono": "",
+    "telefono": "3434802514",
     "horario": "",
     "obs": ""
   },
@@ -515,7 +518,7 @@
     "preciso": true,
     "direccion": "Juan Baez 1970",
     "anfitrion": "Anexo Las Piedras",
-    "telefono": "",
+    "telefono": "3434663887",
     "horario": "",
     "obs": ""
   },
@@ -528,7 +531,7 @@
     "preciso": true,
     "direccion": "Hernández Saba 2289",
     "anfitrion": "",
-    "telefono": "",
+    "telefono": "3434698744",
     "horario": "",
     "obs": "Barrio Cantera Yatay"
   },
@@ -538,10 +541,10 @@
     "lider": "Elías Giorello",
     "lat": "-31.747666159723607",
     "lng": "-60.491237277035935",
-    "preciso": false,
+    "preciso": true,
     "direccion": "Las piedras Casa 37",
     "anfitrion": "Gonzalez, Gainza",
-    "telefono": "",
+    "telefono": "3435229245",
     "horario": "",
     "obs": "Barrio Municipal"
   },
@@ -554,7 +557,7 @@
     "preciso": false,
     "direccion": "Barrio Villa Hermosa",
     "anfitrion": "Gabriel Lezcano",
-    "telefono": "",
+    "telefono": "3434516018",
     "horario": "",
     "obs": ""
   },
