@@ -78,7 +78,8 @@ function renderMarkers() {
           <b>Líder:</b> ${u.lider}<br>
           <b>Tel:</b> ${formatPhone(u.telefono)}<br>
           <b>Horario:</b> ${u.horario}<br>
-          <b>Observaciones:</b> ${u.obs}<br><br>
+          <b>Anfitrión:</b> ${u.anfitrion}<br>
+          <b>Observación:</b> ${u.obs}<br><br>
           ${u.preciso ? '<span style="color:green;">✔️</span>' : '<span style="color:red;">❌</span>'}
         </div>
       </div>
@@ -146,5 +147,5 @@ function formatPhone(phone) {
     return phone;
   }
   // Formatear como "343 447-1447"
-  return `${digits.slice(0, 3)} ${digits.slice(3, 6)}-${digits.slice(6)}`;
+  return `(${digits.slice(0, 3)}) ${digits.slice(3, 6)}-${digits.slice(6)}`;
 }

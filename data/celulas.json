@@ -81,27 +81,27 @@
     "red": "mujeres",
     "tipo": "casa_discipulado",
     "lider": "Soledad Regner",
-    "lat": "-31.75886916392901",
-    "lng": "-60.468305076357574",
-    "preciso": false,
-    "direccion": "Barrio Las Rosas",
-    "anfitrion": "",
-    "telefono": "",
-    "horario": "",
-    "obs": ""
+    "lat": "-31.75506047706668",
+    "lng": "-60.45360980148064",
+    "preciso": true,
+    "direccion": "De la sortija 638",
+    "anfitrion": "Fernanda Cabrera",
+    "telefono": "3434055034",
+    "horario": "Martes 14:30hs",
+    "obs": "Barrio Estación Parera"
   },
   {
     "red": "mujeres",
     "tipo": "casa_discipulado",
     "lider": "Cecilia Castañeda",
-    "lat": "-31.75620538024988",
-    "lng": "-60.50674068255063",
-    "preciso": false,
-    "direccion": "Barrio Parana V",
-    "anfitrion": "",
-    "telefono": "",
-    "horario": "",
-    "obs": ""
+    "lat": "-31.7542576679826",
+    "lng": "-60.50842057029675",
+    "preciso": true,
+    "direccion": "Santos Domínguez 804",
+    "anfitrion": "Marisa Vivas",
+    "telefono": "3434551300",
+    "horario": "Lunes 15:30hs",
+    "obs": "Barrio Parana V"
   },
   {
     "red": "mujeres",
@@ -302,15 +302,69 @@
     "red": "mujeres",
     "tipo": "casa_discipulado",
     "lider": "Yamila Duarte",
-    "lat": "-31.770319367698264",
-    "lng": "-60.48251498598128",
-    "preciso": false,
-    "direccion": "Zona Calle Caputto",
+    "lat": "-31.770998901074",
+    "lng": "-60.48458596935191",
+    "preciso": true,
+    "direccion": "Del Chamamé 2815",
     "anfitrion": "Patricia Troncoso",
-    "telefono": "",
-    "horario": "",
+    "telefono": "3434477513",
+    "horario": "Viernes 15:30hs",
     "obs": "Barrio Mosconi II"
   },
+  {
+    "red": "mujeres",
+    "tipo": "casa_discipulado",
+    "lider": "Estela Canciano",
+    "lat": "-31.74126350853079",
+    "lng": "-60.5002338149065",
+    "preciso": true,
+    "direccion": "José Rondeau 1107 (Iglesia)",
+    "anfitrion": "-",
+    "telefono": "3434562561",
+    "horario": "Viernes 17hs a 19hs",
+    "obs": ""
+  },
+  {
+    "red": "mujeres",
+    "tipo": "casa_discipulado",
+    "lider": "Mariela Duré",
+    "lat": "-31.732973847009482",
+    "lng": "-60.499925500838046",
+    "preciso": false,
+    "direccion": "",
+    "anfitrion": "Irma, Cabrera",
+    "telefono": "",
+    "horario": "Miércoles 15hs",
+    "obs": "Barrio Los Constituyentes - Inter red: Nilda, López"
+  },
+  {
+    "red": "mujeres",
+    "tipo": "casa_discipulado",
+    "lider": "Cecilia Castañeda",
+    "lat": "-31.76766145313666",
+    "lng": "-60.54694152897252",
+    "preciso": false,
+    "direccion": "Barrio Las Piedras",
+    "anfitrion": "Rosana Gonzalez",
+    "telefono": "3434551300",
+    "horario": "Jueves 15hs",
+    "obs": ""
+  },
+  {
+    "red": "mujeres",
+    "tipo": "casa_discipulado",
+    "lider": "Romina Chavez",
+    "lat": "-31.76049694950484",
+    "lng": "-60.511996168586485",
+    "preciso": true,
+    "direccion": "Pacto Unión Nacional 1414",
+    "anfitrion": "Yolanda Torrilla",
+    "telefono": "3435161153",
+    "horario": "Sábados 16hs",
+    "obs": "Barrio Los Aromos"
+  },
+
+  
 
 
 
@@ -319,6 +373,19 @@
 
 
 
+  {
+    "red": "mujeres",
+    "tipo": "casa_oracion",
+    "lider": "Verónica Sánchez",
+    "lat": "-31.729237097717615",
+    "lng": "-60.50722362535527",
+    "preciso": true,
+    "direccion": "Saba Hernandez 2305",
+    "anfitrion": "Luciana, Gonzáles",
+    "telefono": "",
+    "horario": "Miércoles 15:45hs",
+    "obs": "esquina calle Fraternidad"
+  },
   {
     "red": "mujeres",
     "tipo": "casa_oracion",
@@ -578,6 +645,13 @@
 
 
 
+
+
+
+
+
+
+
   {
     "red": "jovenes",
     "tipo": "casa_discipulado",
@@ -586,10 +660,10 @@
     "lng": "-60.502649",
     "preciso": true,
     "direccion": "Campamento del Cala 536",
-    "anfitrion": "",
-    "telefono": "",
-    "horario": "",
-    "obs": "Zona Almafuerte"
+    "anfitrion": "Johana Afranchino",
+    "telefono": "3434576642",
+    "horario": "Sábados 10hs",
+    "obs": "Mixta - Zona Almafuerte"
   },
   {
     "red": "jovenes",
@@ -599,10 +673,10 @@
     "lng": "-60.476203",
     "preciso": false,
     "direccion": "Barrio 8 de Septiembre",
-    "anfitrion": "",
-    "telefono": "",
-    "horario": "",
-    "obs": ""
+    "anfitrion": "Facundo Suarez",
+    "telefono": "3434473374",
+    "horario": "Lunes 17hs",
+    "obs": "Mixta"
   },
   {
     "red": "jovenes",
@@ -615,7 +689,7 @@
     "anfitrion": "Flia. Gonzalez, Gainza",
     "telefono": "",
     "horario": "",
-    "obs": ""
+    "obs": "Mujeres"
   },
   {
     "red": "jovenes",
@@ -681,5 +755,31 @@
     "telefono": "",
     "horario": "",
     "obs": ""
+  },
+  {
+    "red": "jovenes",
+    "tipo": "casa_discipulado",
+    "lider": "Mariela Altamirano",
+    "lat": "-31.760392594793007",
+    "lng": "-60.50450095575674",
+    "preciso": true,
+    "direccion": "Gobernador Basavilbaso 1182",
+    "anfitrion": "Isabel Briseño",
+    "telefono": "3436988657",
+    "horario": "",
+    "obs": "Mujeres - Barrio 35 Viviendas - entre Juan Garrigó e Intendente Blanda"
+  },
+  {
+    "red": "jovenes",
+    "tipo": "casa_discipulado",
+    "lider": "Sebastián Ibarra",
+    "lat": "-31.75372397854581",
+    "lng": "-60.516649675909406",
+    "preciso": true,
+    "direccion": "Juan de la Cruz 262",
+    "anfitrion": "Jeremías Soria",
+    "telefono": "3434627359",
+    "horario": "Viernes 20hs",
+    "obs": "Varones"
   }
 ]
