@@ -781,5 +781,18 @@
     "telefono": "3434627359",
     "horario": "Viernes 20hs",
     "obs": "Varones"
+  },
+  {
+    "red": "jovenes",
+    "tipo": "casa_discipulado",
+    "lider": "Marcelo Gotti",
+    "lat": "-31.786857062594787",
+    "lng": "-60.515597462654114",
+    "preciso": true,
+    "direccion": "Gral. Gervasio Artigas y Calle 1628",
+    "anfitrion": "Germán Grinovero",
+    "telefono": "3435327628",
+    "horario": "Jueves 20hs",
+    "obs": "Varones"
   }
 ]
