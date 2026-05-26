@@ -12,10 +12,10 @@ const tiles = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
 L.control.attribution({ prefix: false }).addTo(map);
 
 // Geocoder limitado a Paraná
-const lon1 = -60.6;   // oeste
-const lat1 = -31.85;  // sur
-const lon2 = -60.3;   // este
-const lat2 = -31.69;  // norte
+const lon1 = -60.6;
+const lat1 = -31.85;
+const lon2 = -60.3;
+const lat2 = -31.69;
 
 L.Control.geocoder({
   defaultMarkGeocode: true,
@@ -43,10 +43,12 @@ const iconJovDiscipulado = L.icon({ iconUrl: "images/JovenesDiscipulado.svg", ic
 
 const group = L.featureGroup();
 let todasUbicaciones = [];
+let visibleMarkers = [];
 
 // Renderizar markers con filtros
 function renderMarkers() {
   group.clearLayers();
+  visibleMarkers = [];
 
   const tipoFiltro = document.getElementById("tipoSelect").value;
   const redFiltro = document.getElementById("redSelect").value;
@@ -94,6 +96,7 @@ function renderMarkers() {
     });
 
     marker.addTo(group);
+    visibleMarkers.push({ data: u, marker });
   });
 
   group.addTo(map);
@@ -101,9 +104,123 @@ function renderMarkers() {
   if (group.getLayers().length > 0) {
     map.fitBounds(group.getBounds(), { animate: true, duration: 0.8 });
   }
+
+  renderList();
 }
 
-// Cargar datos
+// ===== SIDEBAR: Renderizar listado =====
+function renderList() {
+  const searchText = document.getElementById("searchInput").value.toLowerCase().trim();
+  const listEl = document.getElementById("cellList");
+  const countEl = document.getElementById("listCount");
+
+  let filtered = visibleMarkers;
+
+  if (searchText) {
+    filtered = visibleMarkers.filter(item => {
+      const d = item.data;
+      const tipoLabel = d.tipo === "casa_discipulado" ? "casa discipulado" : "casa de oración";
+      const redLabel = { mujeres: "mujeres", varones: "varones", jovenes: "jóvenes" }[d.red] || "";
+      const searchFields = [
+        d.direccion, d.lider, d.anfitrion, d.obs,
+        d.telefono, tipoLabel, redLabel
+      ];
+      return searchFields.some(f => f && f.toLowerCase().includes(searchText));
+    });
+  }
+
+  filtered.sort((a, b) => {
+    const netOrder = { mujeres: 1, varones: 2, jovenes: 3 };
+    const aNet = netOrder[a.data.red] || 99;
+    const bNet = netOrder[b.data.red] || 99;
+    if (aNet !== bNet) return aNet - bNet;
+    const tipoOrder = { casa_oracion: 1, casa_discipulado: 2 };
+    const aTipo = tipoOrder[a.data.tipo] || 99;
+    const bTipo = tipoOrder[b.data.tipo] || 99;
+    if (aTipo !== bTipo) return aTipo - bTipo;
+    return (a.data.lider || "").localeCompare(b.data.lider || "", "es");
+  });
+
+  if (filtered.length === 0) {
+    listEl.innerHTML = '<div class="list-empty">No se encontraron células</div>';
+    countEl.textContent = "0 células";
+    return;
+  }
+
+  listEl.innerHTML = filtered.map((item, idx) => {
+    const d = item.data;
+    const tipoLabel = d.tipo === "casa_discipulado" ? "Casa Discipulado" : "Casa de Oración";
+    const redLabel = { mujeres: "Mujeres", varones: "Varones", jovenes: "Jóvenes" }[d.red] || d.red;
+    const phone = formatPhone(d.telefono);
+
+    return `
+      <div class="list-item" data-idx="${idx}">
+        <div class="list-item-dot ${d.red}"></div>
+        <div class="list-item-body">
+          <div class="list-item-title">${tipoLabel}</div>
+          <div class="list-item-red">${redLabel}</div>
+          <div class="list-item-dir">${d.direccion}</div>
+          <div class="list-item-meta">
+            ${d.lider ? `<span>${d.lider}</span>` : ""}
+            ${phone ? `<span>${phone}</span>` : ""}
+          </div>
+        </div>
+      </div>
+    `;
+  }).join("");
+
+  countEl.textContent = `${filtered.length} célula${filtered.length !== 1 ? "s" : ""}`;
+
+  listEl.querySelectorAll(".list-item").forEach((el, idx) => {
+    el.addEventListener("click", () => focusCell(filtered[idx]));
+  });
+}
+
+function focusCell(item) {
+  if (!item || !item.marker) return;
+  const d = item.data;
+  map.flyTo([parseFloat(d.lat) + 0.0002, parseFloat(d.lng)], 18, {
+    animate: true,
+    duration: 0.8,
+  });
+  item.marker.openPopup();
+
+  if (window.innerWidth <= 768) {
+    toggleSidebar();
+  }
+}
+
+// ===== SIDEBAR: Toggle =====
+let sidebarOpen = false;
+
+function toggleSidebar() {
+  sidebarOpen = !sidebarOpen;
+  document.getElementById("sidebar").classList.toggle("open", sidebarOpen);
+
+  if (sidebarOpen) {
+    document.getElementById("searchInput").focus();
+  }
+}
+
+document.getElementById("sidebarToggle").addEventListener("click", toggleSidebar);
+document.getElementById("sidebarClose").addEventListener("click", toggleSidebar);
+document.getElementById("sidebarBackdrop").addEventListener("click", toggleSidebar);
+
+// ===== SIDEBAR: Buscador con debounce =====
+let searchTimeout;
+document.getElementById("searchInput").addEventListener("input", function () {
+  clearTimeout(searchTimeout);
+  searchTimeout = setTimeout(renderList, 200);
+});
+
+// Cerrar con tecla Escape
+document.addEventListener("keydown", function (e) {
+  if (e.key === "Escape" && sidebarOpen) {
+    toggleSidebar();
+  }
+});
+
+// ===== Cargar datos =====
 fetch("data/celulas.json")
   .then(res => res.json())
   .then(ubicaciones => {
@@ -140,12 +257,9 @@ function formatPhone(phone) {
   if (!phone || phone.trim() === '') {
     return '';
   }
-  // Remover caracteres no numéricos
   const digits = phone.replace(/\D/g, '');
-  // Si no tiene exactamente 10 dígitos, retornar el original
   if (digits.length !== 10) {
     return phone;
   }
-  // Formatear como "343 447-1447"
   return `(${digits.slice(0, 3)}) ${digits.slice(3, 6)}-${digits.slice(6)}`;
 }
