@@ -184,10 +184,6 @@ function focusCell(item) {
     duration: 0.8,
   });
   item.marker.openPopup();
-
-  if (window.innerWidth <= 768) {
-    toggleSidebar();
-  }
 }
 
 // ===== SIDEBAR: Toggle =====
@@ -195,16 +191,19 @@ let sidebarOpen = false;
 
 function toggleSidebar() {
   sidebarOpen = !sidebarOpen;
-  document.getElementById("sidebar").classList.toggle("open", sidebarOpen);
+  document.getElementById("sidebarPanel").classList.toggle("open", sidebarOpen);
+  document.getElementById("sidebarToggle").classList.toggle("active", sidebarOpen);
 
   if (sidebarOpen) {
     document.getElementById("searchInput").focus();
+    setTimeout(() => map.invalidateSize(), 350);
+  } else {
+    setTimeout(() => map.invalidateSize(), 350);
   }
 }
 
 document.getElementById("sidebarToggle").addEventListener("click", toggleSidebar);
 document.getElementById("sidebarClose").addEventListener("click", toggleSidebar);
-document.getElementById("sidebarBackdrop").addEventListener("click", toggleSidebar);
 
 // ===== SIDEBAR: Buscador con debounce =====
 let searchTimeout;

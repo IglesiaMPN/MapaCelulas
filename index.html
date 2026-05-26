@@ -18,6 +18,7 @@
 <body>
     <header class="app-header">
         <div class="header-content">
+            <button class="sidebar-toggle" id="sidebarToggle" aria-label="Mostrar lista">☰</button>
             <div class="header-icon">📌</div>
             <div>
                 <h1 class="header-title">Mapa de Células</h1>
@@ -47,13 +48,7 @@
     </div>
 
     <div class="map-wrapper">
-        <div id="map"></div>
-        <button class="sidebar-toggle" id="sidebarToggle" aria-label="Mostrar lista">☰</button>
-    </div>
-
-    <div class="sidebar" id="sidebar">
-        <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
-        <aside class="sidebar-panel">
+        <aside class="sidebar-panel" id="sidebarPanel">
             <div class="sidebar-header">
                 <h2 class="sidebar-title">Células</h2>
                 <button class="sidebar-close" id="sidebarClose" aria-label="Cerrar">✕</button>
@@ -67,6 +62,7 @@
                 <span id="listCount">0 células</span>
             </div>
         </aside>
+        <div id="map"></div>
     </div>
 
     <footer class="app-footer">
