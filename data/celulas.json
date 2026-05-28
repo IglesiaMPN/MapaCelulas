@@ -46,10 +46,10 @@
     "lng": "-60.48095931492141",
     "preciso": true,
     "direccion": "Francia 1829",
-    "anfitrion": "Anexo Comunidad Gitana",
+    "anfitrion": "Bella Miguel",
     "telefono": "",
     "horario": "",
-    "obs": ""
+    "obs": "Anexo Comunidad Gitana"
   },
   {
     "red": "mujeres",
@@ -59,9 +59,9 @@
     "lng": "-60.55308111629556",
     "preciso": true,
     "direccion": "Lorenzo Anselmi Mzn 11 Casa 7",
-    "anfitrion": "",
+    "anfitrion": "Evelyn Soplan",
     "telefono": "",
-    "horario": "",
+    "horario": "Jueves 16:30hs",
     "obs": "Barrio Mosconi"
   },
   {
@@ -267,10 +267,10 @@
     "lng": "-60.481204",
     "preciso": true,
     "direccion": "Francia 1829",
-    "anfitrion": "Anexo Comunidad Gitana",
+    "anfitrion": "",
     "telefono": "",
     "horario": "",
-    "obs": ""
+    "obs": "Anexo Comunidad Gitana"
   },
   {
     "red": "mujeres",
@@ -363,6 +363,58 @@
     "horario": "Sábados 16hs",
     "obs": "Barrio Los Aromos"
   },
+  {
+    "red": "mujeres",
+    "tipo": "casa_discipulado",
+    "lider": "Elena Coronel",
+    "lat": "-31.742623",
+    "lng": "-60.553116",
+    "preciso": true,
+    "direccion": "Los Jacarandaes 1622",
+    "anfitrion": "María Elena Yacopetti",
+    "telefono": "",
+    "horario": "Martes 16hs",
+    "obs": "Barrio Anacleto Medina"
+  },
+  {
+    "red": "mujeres",
+    "tipo": "casa_discipulado",
+    "lider": "Agustina Martínez",
+    "lat": "-31.723075010462342",
+    "lng": "-60.551875251191106",
+    "preciso": false,
+    "direccion": "Manzana D Casa 13",
+    "anfitrion": "Stefania Ruiz",
+    "telefono": "",
+    "horario": "Viernes 8:30hs",
+    "obs": "Barrio Mosconi"
+  },
+  {
+    "red": "mujeres",
+    "tipo": "casa_discipulado",
+    "lider": "Elena Coronel y Agustina Martínez",
+    "lat": "-31.71826095122083",
+    "lng": "-60.516876787999266",
+    "preciso": false,
+    "direccion": "Claudio Fink al final",
+    "anfitrion": "Lorena Maidana",
+    "telefono": "",
+    "horario": "Jueves 9hs",
+    "obs": "Barrio El Morro"
+  },
+  {
+    "red": "mujeres",
+    "tipo": "casa_discipulado",
+    "lider": "Alejandra Gallo",
+    "lat": "-31.76044276723924",
+    "lng": "-60.52500705078789",
+    "preciso": true,
+    "direccion": "Guillermo Rawson 239",
+    "anfitrion": "María Saluzzio",
+    "telefono": "",
+    "horario": "Viernes 17hs",
+    "obs": ""
+  },
 
   
 
@@ -411,19 +463,6 @@
     "telefono": "",
     "horario": "",
     "obs": ""
-  },
-  {
-    "red": "mujeres",
-    "tipo": "casa_oracion",
-    "lider": "Norma Falconier",
-    "lat": "-31.742623",
-    "lng": "-60.553116",
-    "preciso": true,
-    "direccion": "Los Jacarandaes 1622",
-    "anfitrion": "",
-    "telefono": "343-518-0696",
-    "horario": "",
-    "obs": "Barrio Anacleto Medina"
   },
   {
     "red": "mujeres",
@@ -503,6 +542,32 @@
     "horario": "",
     "obs": ""
   },
+  {
+    "red": "mujeres",
+    "tipo": "casa_oracion",
+    "lider": "Evelín Traico",
+    "lat": "-31.759170203153563",
+    "lng": "-60.478824184603596",
+    "preciso": false,
+    "direccion": "Circunvalacion y José Hernandez",
+    "anfitrion": "Virginia Cristo",
+    "telefono": "",
+    "horario": "Lunes 15hs",
+    "obs": "Comunidad Gitana"
+  },
+  {
+    "red": "mujeres",
+    "tipo": "casa_oracion",
+    "lider": "Norma Falconier",
+    "lat": "-31.73954815237866",
+    "lng": "-60.54725590895631",
+    "preciso": true,
+    "direccion": "Las Tacuaras 2010",
+    "anfitrion": "Ramona Valdez",
+    "telefono": "",
+    "horario": "Jueves 16hs",
+    "obs": "Barrio San Agustín"
+  },
 
 
 
@@ -570,11 +635,11 @@
     "lat": "-31.753457",
     "lng": "-60.481204",
     "preciso": true,
-    "direccion": "Francia 2829",
-    "anfitrion": "Anexo Comunidad Gitana",
+    "direccion": "Francia 1829",
+    "anfitrion": "",
     "telefono": "3434802514",
     "horario": "",
-    "obs": ""
+    "obs": "Anexo Comunidad Gitana"
   },
   {
     "red": "varones",
