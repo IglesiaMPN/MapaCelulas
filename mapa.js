@@ -6,7 +6,7 @@ const map = L.map("map", { attributionControl: false }).setView(
 
 const tiles = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
   maxZoom: 19,
-  attribution: "<h4><b>Ultima Actualizacion de celulas: 28/05/2026</b></h4>",
+  attribution: "<h4><b>Ultima Actualizacion de celulas: 29/05/2026</b></h4>",
 }).addTo(map);
 
 L.control.attribution({ prefix: false }).addTo(map);

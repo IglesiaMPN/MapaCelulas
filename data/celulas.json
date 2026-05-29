@@ -45,7 +45,7 @@
     "lat": "-31.753500466671028",
     "lng": "-60.48095931492141",
     "preciso": true,
-    "direccion": "Francia 1829",
+    "direccion": "Francia 2819",
     "anfitrion": "Bella Miguel",
     "telefono": "",
     "horario": "",
@@ -113,7 +113,7 @@
     "direccion": "Marcelino Román 1750",
     "anfitrion": "Anexo Colonia Avellaneda",
     "telefono": "",
-    "horario": "",
+    "horario": "Lunes 16:30hs",
     "obs": "Colonia Avellaneda"
   },
   {
@@ -200,11 +200,11 @@
     "lider": "Nilda Flores",
     "lat": "-31.730674",
     "lng": "-60.506480",
-    "preciso": false,
+    "preciso": true,
     "direccion": "Batalla de Suipacha 2235",
-    "anfitrion": "",
-    "telefono": "",
-    "horario": "",
+    "anfitrion": "Etelvina Mena",
+    "telefono": "3434704432",
+    "horario": "Martes 15hs",
     "obs": "Barrio Yatay"
   },
   {
@@ -224,14 +224,14 @@
     "red": "mujeres",
     "tipo": "casa_discipulado",
     "lider": "María Sánchez (de Mena)",
-    "lat": "-31.729467512137294",
-    "lng": "-60.50271230654456",
-    "preciso": false,
-    "direccion": "Barrio San Roque",
-    "anfitrion": "Lita Barreto",
+    "lat": "-31.72898843200803",
+    "lng": "-60.503726098283174",
+    "preciso": true,
+    "direccion": "Doctor Tezanos Pintos 691",
+    "anfitrion": "Manuela Gastaldi",
     "telefono": "",
-    "horario": "",
-    "obs": ""
+    "horario": "Jueves 15hs",
+    "obs": "Barrio San Roque"
   },
   {
     "red": "mujeres",
@@ -266,10 +266,10 @@
     "lat": "-31.753457",
     "lng": "-60.481204",
     "preciso": true,
-    "direccion": "Francia 1829",
+    "direccion": "Francia 2819",
     "anfitrion": "",
-    "telefono": "",
-    "horario": "",
+    "telefono": "3434591672",
+    "horario": "Miercoles 15hs",
     "obs": "Anexo Comunidad Gitana"
   },
   {
@@ -415,7 +415,21 @@
     "horario": "Viernes 17hs",
     "obs": ""
   },
+  {
+    "red": "mujeres",
+    "tipo": "casa_discipulado",
+    "lider": "Gabriela Ruiz Díaz",
+    "lat": "-31.768164438580577",
+    "lng": "-60.52238081911648",
+    "preciso": true,
+    "direccion": "Alicia Moreau de Justo 79",
+    "anfitrion": "Claudia Rocha",
+    "telefono": "",
+    "horario": "Jueves 16:30hs",
+    "obs": "Barrio Santa Lucia"
+  },
 
+  
   
 
 
@@ -533,14 +547,14 @@
     "red": "mujeres",
     "tipo": "casa_oracion",
     "lider": "Vanesa Lustgarten",
-    "lat": "-31.783013047684378",
-    "lng": "-60.44149702615315",
+    "lat": "-31.791868177755262",
+    "lng": "-60.44266849697173",
     "preciso": false,
-    "direccion": "Zona Sureste de San Benito",
-    "anfitrion": "",
+    "direccion": "Presidente Arturo Illia 3053",
+    "anfitrion": "Juana Díaz",
     "telefono": "",
-    "horario": "",
-    "obs": ""
+    "horario": "Viernes 17hs",
+    "obs": "Zona Sureste de San Benito - Inter red"
   },
   {
     "red": "mujeres",
@@ -568,6 +582,21 @@
     "horario": "Jueves 16hs",
     "obs": "Barrio San Agustín"
   },
+  {
+    "red": "mujeres",
+    "tipo": "casa_oracion",
+    "lider": "Esmeralda Traico y 2da Lucrecia Miguel",
+    "lat": "-31.767706082104617",
+    "lng": "-60.50574605448905",
+    "preciso": true,
+    "direccion": "Juan Garrigó 1894",
+    "anfitrion": "Alejandra Miguel",
+    "telefono": "3434661364",
+    "horario": "",
+    "obs": ""
+  },
+
+
 
 
 
@@ -635,7 +664,7 @@
     "lat": "-31.753457",
     "lng": "-60.481204",
     "preciso": true,
-    "direccion": "Francia 1829",
+    "direccion": "Francia 2819",
     "anfitrion": "",
     "telefono": "3434802514",
     "horario": "",
